@@ -92,7 +92,15 @@ export function isPrima(n) {
 export function modulus(a, b) {
   return a % b;
 }
-export function absolut(a) {}
+
+/**
+ * Mengembalikan nilai absolut dari sebuah angka.
+ * @param {number} a
+ * @returns {number}
+ */
+export function absolut(a) {
+  return Math.abs(a);
+}
 
 /**
  * Mengembalikan nilai terbesar dari dua angka.
@@ -100,7 +108,9 @@ export function absolut(a) {}
  * @param {number} b
  * @returns {number}
  */
-export function maksimum(a, b) {}
+export function maksimum(a, b) {
+  return Math.max(a, b);
+}
 
 /**
  * Mengembalikan nilai terkecil dari dua angka.
@@ -108,13 +118,18 @@ export function maksimum(a, b) {}
  * @param {number} b
  * @returns {number}
  */
-export function minimum(a, b) {}
+export function minimum(a, b) {
+  return Math.min(a, b);
+}
 
 /**
  * Mengembalikan hasil dari a dibulatkan ke bilangan bulat terdekat.
  * @param {number} a
  * @returns {number}
  */
-export function bulatkan(a) {}
+export function bulatkan(a) {
+  return Math.round(a);
+}
 
 // Export hasil akhir
+
